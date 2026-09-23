@@ -3,6 +3,14 @@ package com.krakedev.figuras;
 public class Triangulo extends Figura {
 	private int lado;
 
+	public int getLado() {
+		return lado;
+	}
+
+	public void setLado(int lado) {
+		this.lado = lado;
+	}
+
 	public Triangulo(String nombre, String color, int lado) {
 		super(nombre, color);
 		this.lado= lado;
@@ -15,7 +23,12 @@ public class Triangulo extends Figura {
 	
 	@Override
 	public int calcularPerimetro() {
-        return lado*3;
+        return 0;
+    }
+	
+	@Override
+    public double calcularArea() {
+        return 0;
     }
 
 }
