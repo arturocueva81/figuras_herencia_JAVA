@@ -16,7 +16,7 @@ public class TestFiguras {
 		Cuadrado cuad = new Cuadrado("Cuadro","Azul", 5);
 		System.out.println(cuad);
 		
-		Triangulo tri = new Triangulo("Triangulo","Amarillo",4);
+		Triangulo tri = new Triangulo("Triangulo","Amarillo",4, 3, 2);
 		System.out.println(tri);
 
 	}

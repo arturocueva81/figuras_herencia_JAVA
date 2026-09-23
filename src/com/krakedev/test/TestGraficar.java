@@ -15,9 +15,9 @@ public class TestGraficar {
 		Graficador graf=new Graficador();
 		//Figura figura = new Figura("Figura", "amarillo");
 		Figura cuadrado = new Cuadrado("Cuadrado", "azul", 5);
-		Figura triangulo = new Triangulo("Triangulo", "rojo", 3);
+		Figura triangulo = new Triangulo("Triangulo", "rojo", 3, 4, 5);
 		Figura rect = new Rectangulo("Rectangulo ","verde", 3,4);
-		Figura trianguloR = new TrianguloRectangulo("TrianguloRectangulo", "morado", 3, 4);
+		Figura trianguloR = new TrianguloRectangulo("Triangulo Rectangulo", "morado", 3, 4);
 		Figura hexagono = new Hexagono("Hexagono", "naranja", 5);
         
         System.out.println("Test Graficador");
