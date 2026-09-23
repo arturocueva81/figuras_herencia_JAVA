@@ -11,7 +11,7 @@ public class TestGraficar {
 		// TODO Auto-generated method stub
 		Graficador graf=new Graficador();
 		Figura figura = new Figura("Figura", "amarillo");
-        Cuadrado cuadrado = new Cuadrado("Cuadrado", "azul");
+        Cuadrado cuadrado = new Cuadrado("Cuadrado", "azul", 0);
         Triangulo triangulo = new Triangulo("Triangulo", "rojo");
         
         System.out.println("Test Graficador");
