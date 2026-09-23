@@ -25,5 +25,9 @@ public class Figura {
 	public String toString() {
 		return "Figura [nombre=" + nombre + ", color=" + color + "]";
 	}
+	
+	public int calcularPerimetro() {
+        return 0;
+    }
 
 }

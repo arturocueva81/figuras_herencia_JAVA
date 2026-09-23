@@ -23,6 +23,7 @@ public class Cuadrado extends Figura {
 		return "Cuadrado [nombre=" + getNombre() + ", color=" + getColor() +", lado="+getLado()+ "]";
 	}
 	
+	@Override
 	public int calcularPerimetro() {
 		return lado*4;
 	}

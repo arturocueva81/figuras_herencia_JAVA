@@ -13,10 +13,10 @@ public class TestFiguras {
 		Figura fig = new Figura("Figura","Rojo");
 		System.out.println(fig);
 		
-		Cuadrado cuad = new Cuadrado("Cuadro","Azul", 0);
+		Cuadrado cuad = new Cuadrado("Cuadro","Azul", 5);
 		System.out.println(cuad);
 		
-		Triangulo tri = new Triangulo("Triangulo","Amarillo");
+		Triangulo tri = new Triangulo("Triangulo","Amarillo",4);
 		System.out.println(tri);
 
 	}
